@@ -1,0 +1,180 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_241
+java.home            : C:\Program Files\Java\jre1.8.0_241
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Jun 20 00:35:52 CDT 2024
+Loading Browser Profile
+Loading RunManager
+[Scenario:Login] [TestCase: Login1] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 124.0.6367.91 (51df0e5e17a8b0a4f281c1665dbd1b8a0c6b46af-refs/branch-heads/6367@{#984}) on port 8292
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2024-06-20 00:35:54:06S -0500 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 126.0.6478.62 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'AWSWS-OQQTPM7K9', ip: '10.188.24.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7030F1502+60802]
+	(No symbol) [0x00007FF70306AC02]
+	(No symbol) [0x00007FF702F27CE4]
+	(No symbol) [0x00007FF702F65942]
+	(No symbol) [0x00007FF702F64B42]
+	(No symbol) [0x00007FF702F5F8D3]
+	(No symbol) [0x00007FF702F5AA64]
+	(No symbol) [0x00007FF702FA6037]
+	(No symbol) [0x00007FF702FA56B0]
+	(No symbol) [0x00007FF702F9A923]
+	(No symbol) [0x00007FF702F68FEC]
+	(No symbol) [0x00007FF702F69C21]
+	GetHandleVerifier [0x00007FF7033F411D+3217821]
+	GetHandleVerifier [0x00007FF7034360B7+3488055]
+	GetHandleVerifier [0x00007FF70342F03F+3459263]
+	GetHandleVerifier [0x00007FF7031AB846+823494]
+	(No symbol) [0x00007FF703075F9F]
+	(No symbol) [0x00007FF703070EC4]
+	(No symbol) [0x00007FF703071052]
+	(No symbol) [0x00007FF7030618A4]
+	BaseThreadInitThunk [0x00007FFAE8A37344+20]
+	RtlUserThreadStart [0x00007FFAEA49CC91+33]
+
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 126.0.6478.62 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'AWSWS-OQQTPM7K9', ip: '10.188.24.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7030F1502+60802]
+	(No symbol) [0x00007FF70306AC02]
+	(No symbol) [0x00007FF702F27CE4]
+	(No symbol) [0x00007FF702F65942]
+	(No symbol) [0x00007FF702F64B42]
+	(No symbol) [0x00007FF702F5F8D3]
+	(No symbol) [0x00007FF702F5AA64]
+	(No symbol) [0x00007FF702FA6037]
+	(No symbol) [0x00007FF702FA56B0]
+	(No symbol) [0x00007FF702F9A923]
+	(No symbol) [0x00007FF702F68FEC]
+	(No symbol) [0x00007FF702F69C21]
+	GetHandleVerifier [0x00007FF7033F411D+3217821]
+	GetHandleVerifier [0x00007FF7034360B7+3488055]
+	GetHandleVerifier [0x00007FF70342F03F+3459263]
+	GetHandleVerifier [0x00007FF7031AB846+823494]
+	(No symbol) [0x00007FF703075F9F]
+	(No symbol) [0x00007FF703070EC4]
+	(No symbol) [0x00007FF703071052]
+	(No symbol) [0x00007FF7030618A4]
+	BaseThreadInitThunk [0x00007FFAE8A37344+20]
+	RtlUserThreadStart [0x00007FFAEA49CC91+33]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:146)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:187)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:167)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:157)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:151)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:121)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[DEBUG]   | session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 126.0.6478.62 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'AWSWS-OQQTPM7K9', ip: '10.188.24.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7030F1502+60802]
+	(No symbol) [0x00007FF70306AC02]
+	(No symbol) [0x00007FF702F27CE4]
+	(No symbol) [0x00007FF702F65942]
+	(No symbol) [0x00007FF702F64B42]
+	(No symbol) [0x00007FF702F5F8D3]
+	(No symbol) [0x00007FF702F5AA64]
+	(No symbol) [0x00007FF702FA6037]
+	(No symbol) [0x00007FF702FA56B0]
+	(No symbol) [0x00007FF702F9A923]
+	(No symbol) [0x00007FF702F68FEC]
+	(No symbol) [0x00007FF702F69C21]
+	GetHandleVerifier [0x00007FF7033F411D+3217821]
+	GetHandleVerifier [0x00007FF7034360B7+3488055]
+	GetHandleVerifier [0x00007FF70342F03F+3459263]
+	GetHandleVerifier [0x00007FF7031AB846+823494]
+	(No symbol) [0x00007FF703075F9F]
+	(No symbol) [0x00007FF703070EC4]
+	(No symbol) [0x00007FF703071052]
+	(No symbol) [0x00007FF7030618A4]
+	BaseThreadInitThunk [0x00007FFAE8A37344+20]
+	RtlUserThreadStart [0x00007FFAEA49CC91+33]
+
+
+===================================================================================================
+
+2024-06-20 00:35:54:06S -0500 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler updateTestLog:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:103)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:134)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:105)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:188)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:176)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:133)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+---------------------------------------------------
+Testcase Name        : Login:Login1
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:02
+-----------------------------------------------------
+
+Run Finished on Thu Jun 20 00:35:54 CDT 2024
+-----------------------------------------------------
+ExecutionDate        : 20-Jun-2024 00-35-52
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:02
+ReportPath           : file:///D:\GitHubIntegration_CITS\automation_scripts\Projects\Practice\Results\TestDesign\Login\Login1\20-Jun-2024 00-35-52\summary.html
+-----------------------------------------------------

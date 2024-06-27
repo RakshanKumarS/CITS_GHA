@@ -1,0 +1,124 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_241
+java.home            : C:\Program Files\Java\jre1.8.0_241
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Jun 27 05:23:41 CDT 2024
+Loading Browser Profile
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/CITS_GHA/lib/slf4j-simple-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/CITS_GHA/lib/Spritz_Integration-0.0.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+Loading RunManager
+[Scenario:Login] [TestCase: Login1] [Description: Login1] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Login] [TestCase: Login2] [Description: Login2] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[2] TestCases selected for execution from [//Release1/TestSet1]
+----------------------------------------------------------
+Initializing Report
+[main] INFO com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 126.0.6478.62 (b2781ca4c383af675f7a25c7b03b4a54e25e559a-refs/branch-heads/6478_56@{#4}) on port 45155
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2024-06-27 05:23:45:06S -0500 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://mail.google.com/mail/u/0/ | Conditon:  | @27-Jun-2024 05:23:45.045
+[DONE]   | Opened Url: https://mail.google.com/mail/u/0/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @27-Jun-2024 05:23:48.048
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:3   | Object: Gmail Headers | Action: assertElementPresent | Input:  | Conditon:  | @27-Jun-2024 05:23:48.048
+Using @relative_xpath [(//span[contains(text(),"Gmail")])[1]], Object 'Gmail Headers' Found in 42 ms
+[PASS]   | Element [Gmail Headers] is Present
+
+===================================================================================================
+
+2024-06-27 05:23:48:06S -0500 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:4   | Object: Gmail Headers | Action: assertElementTextContains | Input: @Gmail | Conditon:  | @27-Jun-2024 05:23:49.049
+Using @relative_xpath [(//span[contains(text(),"Gmail")])[1]], Object 'Gmail Headers' Found in 30 ms
+[PASS]   | Gmail Headers's Text CONTAINS Gmail 
+
+===================================================================================================
+
+2024-06-27 05:23:49:06S -0500 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+
+---------------------------------------------------
+Testcase Name        : Login:Login1
+Executed Steps       : 4
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:00:09
+-----------------------------------------------------
+
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 126.0.6478.62 (b2781ca4c383af675f7a25c7b03b4a54e25e559a-refs/branch-heads/6478_56@{#4}) on port 18274
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2024-06-27 05:23:53:06S -0500 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://mail.google.com/mail/u/0/ | Conditon:  | @27-Jun-2024 05:23:53.053
+[DONE]   | Opened Url: https://mail.google.com/mail/u/0/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @27-Jun-2024 05:23:55.055
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+Step:3   | Object: Gmail Headers | Action: assertElementPresent | Input:  | Conditon:  | @27-Jun-2024 05:23:55.055
+Using @relative_xpath [(//span[contains(text(),"Gmail")])[1]], Object 'Gmail Headers' Found in 32 ms
+[PASS]   | Element [Gmail Headers] is Present
+
+===================================================================================================
+
+2024-06-27 05:23:55:06S -0500 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:4   | Object: Gmail Headers | Action: assertElementTextContains | Input: @Yahoo | Conditon:  | @27-Jun-2024 05:23:56.056
+Using @relative_xpath [(//span[contains(text(),"Gmail")])[1]], Object 'Gmail Headers' Found in 21 ms
+[FAIL]   | "Gmail Headers" text is "to continue to Gmail" but should contain "Yahoo"
+
+===================================================================================================
+
+2024-06-27 05:23:56:06S -0500 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+
+---------------------------------------------------
+Testcase Name        : Login:Login2
+Executed Steps       : 4
+Passed Steps         : 3
+Failed Steps         : 1
+Time Taken           : 00:00:06
+-----------------------------------------------------
+
+Run Finished on Thu Jun 27 05:23:57 CDT 2024
+-----------------------------------------------------
+ExecutionDate        : 27-Jun-2024 05-23-41
+Executed TestCases   : 2
+Passed TestCases     : 1
+Failed TestCases     : 1
+Time Taken           : 00:00:16
+ReportPath           : file:///D:\CITS_GHA\Projects\Practice\Results\TestExecution\Release1\TestSet1\27-Jun-2024 05-23-41\summary.html
+-----------------------------------------------------

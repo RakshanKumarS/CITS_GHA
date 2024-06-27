@@ -1,0 +1,66 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_241
+java.home            : C:\Program Files\Java\jre1.8.0_241
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Jun 27 04:41:29 CDT 2024
+Loading Browser Profile
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/GitHubIntegration_CITS/automation_scripts/lib/slf4j-simple-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/GitHubIntegration_CITS/automation_scripts/lib/Spritz_Integration-0.0.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+Loading RunManager
+[Scenario:Login] [TestCase: Login1] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[main] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Exception in thread "pool-2-thread-1" Run Finished on Thu Jun 27 04:41:29 CDT 2024
+java.lang.RuntimeException: java.io.FileNotFoundException: D:\GitHubIntegration_CITS\automation_scripts\Configuration\ReportTemplate\html\testCase.html (The system cannot find the path specified)
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.createReport(HtmlTestCaseHandler.java:87)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.createReport(TestCaseReport.java:99)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: D:\GitHubIntegration_CITS\automation_scripts\Configuration\ReportTemplate\html\testCase.html (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.util.Scanner.<init>(Unknown Source)
+	at com.cognizant.cognizantits.datalib.util.data.FileScanner.readFile(FileScanner.java:47)
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.createReport(HtmlTestCaseHandler.java:85)
+	... 5 more
+2024-06-27 04:41:29:06S -0500 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlSummaryHandler finalizeReport:Source 'D:\GitHubIntegration_CITS\automation_scripts\Configuration\ReportTemplate\html\summary.html' does not exist
+java.io.FileNotFoundException: Source 'D:\GitHubIntegration_CITS\automation_scripts\Configuration\ReportTemplate\html\summary.html' does not exist
+	at org.apache.commons.io.FileUtils.checkFileRequirements(FileUtils.java:1405)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1072)
+	at org.apache.commons.io.FileUtils.copyFileToDirectory(FileUtils.java:1012)
+	at org.apache.commons.io.FileUtils.copyFileToDirectory(FileUtils.java:973)
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlSummaryHandler.createHtmls(HtmlSummaryHandler.java:210)
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlSummaryHandler.finalizeReport(HtmlSummaryHandler.java:197)
+	at com.cognizant.cognizantits.engine.reporting.SummaryReport.finalizeReport(SummaryReport.java:152)
+	at com.cognizant.cognizantits.engine.core.Control.endExecution(Control.java:189)
+	at com.cognizant.cognizantits.engine.core.Control.startRun(Control.java:172)
+	at com.cognizant.cognizantits.engine.core.Control.start(Control.java:58)
+	at com.cognizant.cognizantits.engine.core.Control.call(Control.java:75)
+	at com.cognizant.cognizantits.engine.cli.CLI.executeWith(CLI.java:125)
+	at com.cognizant.cognizantits.engine.cli.LookUp.exe(LookUp.java:172)
+	at com.cognizant.cognizantits.ide.main.Main.commandLineExecution(Main.java:67)
+	at com.cognizant.cognizantits.ide.main.Main.main(Main.java:55)
+
+-----------------------------------------------------
+ExecutionDate        : 27-Jun-2024 04-41-29
+Executed TestCases   : 0
+Passed TestCases     : 0
+Failed TestCases     : 0
+Time Taken           : 00:00:00
+ReportPath           : file:///D:\GitHubIntegration_CITS\automation_scripts\Projects\Practice\Results\TestDesign\Login\Login1\27-Jun-2024 04-41-29\summary.html
+-----------------------------------------------------

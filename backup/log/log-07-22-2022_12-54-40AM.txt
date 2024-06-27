@@ -1,0 +1,3 @@
+2022-07-22 00:54:39:07S -0500 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2022-07-22 00:54:40:07S -0500 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2022-07-22 00:54:45:07S -0500 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE

@@ -28,4 +28,4 @@ jobs:
        uses: actions/upload-artifact@v4
        with:
             name: Test Results
-            path: Practice/Results/TestExecution/Release1/TestSet1/Latest
+            path: Projects/Practice/Results/TestExecution/Release1/TestSet1/Latest

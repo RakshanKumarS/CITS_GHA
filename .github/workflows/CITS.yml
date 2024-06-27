@@ -11,7 +11,7 @@ env:
 jobs:
   build:
    
-     runs-on: ubuntu-latest
+     runs-on: windows-latest
      steps:
      
      - uses: actions/checkout@v3
@@ -23,7 +23,7 @@ jobs:
      - name: Setup Permissions
        run: chmod -R 755 ./
      - name: Run CITS Test
-       run: ./Run.command -run -project_location "Projects/Practice" -release "Release1" -testset "TestSet1" -browser "Chrome"
+       run: ./Run.bat -run -project_location "Projects/Practice" -release "Release1" -testset "TestSet1" -browser "Chrome"
      - name: Upload Results
        uses: actions/upload-artifact@v4
        with:

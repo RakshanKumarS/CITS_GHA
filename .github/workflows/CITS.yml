@@ -28,7 +28,7 @@ jobs:
      - name: Setup Permissions
        run: chmod -R 755 ./
      - name: Run CITS Test
-       run: ./Run.bat -run -project_location "Projects/Practice" -release "Release1" -testset "TestSet1" -browser "Chrome" -standaloneReport "true"
+       run: ./Run.bat -run -project_location "Projects/Practice" -release "Release1" -testset "TestSet1" -browser "Chrome" -standalone_report "true"
      - name: Upload Results
        uses: actions/upload-artifact@v4
        with:

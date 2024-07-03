@@ -13,4 +13,30 @@
       </Object>
     </ObjectGroup>
   </Page>
+  <Page title="" ref="FileUpload">
+    <ObjectGroup ref="UploadBtn">
+      <Object frame="" ref="UploadBtn">
+        <Property value="upload" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="fileUppload_SuccessMsg">
+      <Object frame="" ref="fileUppload_SuccessMsg">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//p[contains(text(),'You uploaded a file. This is the result.')]" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
 </Root>

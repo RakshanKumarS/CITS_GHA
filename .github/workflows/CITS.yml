@@ -4,11 +4,6 @@ on:
     types:
     - opened
     - reopened
-  workflow_dispatch:
-    inputs:
-      deploymentdata:
-        description: Deployment data as a JSON object
-        required: true
    
 env:
     ENVIRONMENT_TO_EXECUTE: Default
